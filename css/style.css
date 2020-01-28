@@ -1,0 +1,74 @@
+html, *, *:before, *:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Roboto;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flex{
+    display: flex;
+}
+.flex-vertical{
+    flex-direction: column;
+}
+.flex-horizontal{
+    flex-direction: row;
+}
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+.flex-between{
+    justify-content: space-between;
+}
+
+/* sections style's */
+.banner{
+    height: 100vh;
+}
+.banner-content{
+    position: relative;
+    background-color: #F6F5F0;
+    height: 100%;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+.banner-content h1{
+    color: #3B82B9;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 32px;
+}
+.banner-picture{
+    width: calc(60% - 2rem);
+    margin: 1rem;
+}
+.banner-indicator{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    color: #3B82B9;
+    font-size: 2rem !important;
+    animation: banner-indicator-animation 1s infinite alternate-reverse;
+}
+@keyframes banner-indicator-animation{
+    from{
+        transform: translateY(-25%);
+    }
+    to{
+        transform: translateY(25%);
+    }
+}
