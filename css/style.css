@@ -97,3 +97,21 @@ body{
 .objetives-content__section ol li{
     margin-bottom: .5rem;
 }
+
+/* Problems section style's */
+.problems{
+    height: 100vh;
+    width: 100%;
+}
+.problems-picture{
+    height: 100%;
+}
+.problems-content{
+    text-align: center;
+}
+.problems-content h2{
+    margin-bottom: 1rem;
+}
+.problems-content p{
+    padding: 0 2rem;
+}
