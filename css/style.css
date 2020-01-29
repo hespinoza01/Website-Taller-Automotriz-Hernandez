@@ -72,3 +72,28 @@ body{
         transform: translateY(25%);
     }
 }
+
+/* Objetives section style's */
+.objetives{
+    height: 100vh;
+    width: 100%;
+}
+.objetives-picture{
+    height: 100%;
+}
+.objetives-content__section{
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+}
+.objetives-content__section:last-child{
+    margin-bottom: 0;
+}
+.objetives-content__section h2{
+    margin-bottom: 1rem;
+}
+.objetives-content__section ol{
+    margin-left: 1rem;
+}
+.objetives-content__section ol li{
+    margin-bottom: .5rem;
+}
