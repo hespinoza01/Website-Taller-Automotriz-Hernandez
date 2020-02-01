@@ -258,3 +258,19 @@ a{
 .objetives-content div ol li{
     margin-bottom: 1rem;
 }
+
+/* recomendation */
+.recomendation{
+    padding: 1rem 2rem; 
+    justify-content: center;
+}
+.recomendation p{
+    margin-bottom: 1rem;
+}
+.recomendation ul{
+    margin-left: 1rem;
+    text-align: left;
+}
+.recomendation ul li{
+    margin-bottom: 1rem;
+}
