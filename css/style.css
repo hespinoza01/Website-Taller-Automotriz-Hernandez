@@ -55,6 +55,14 @@ a{
     margin-bottom: 1rem;
 }
 
+.section-img{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
 /* Header style's */
 .header{
     position: fixed;
@@ -209,4 +217,30 @@ a{
     background-color: #009999;
     color: #fff;
     padding: .5rem 1rem;
+}
+
+/* Rich Figure style's */
+.rich-figure img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.raiz-definition article{
+    width: 50%;
+    padding: 1rem;
+}
+.raiz-definition article img{
+    width: 100%;
+}
+.raiz-definition .section-img{
+    width: 40%;
+}
+
+/* caja negra */
+.caja-negra article{
+    justify-content: space-evenly;
+}
+.caja-negra article div img:first-child{
+    margin-bottom: 1rem;
 }
