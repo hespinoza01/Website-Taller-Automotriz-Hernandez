@@ -126,6 +126,7 @@ a{
 .banner-picture{
     width: calc(60% - 2rem);
     margin: 1rem;
+    object-fit: contain;
 }
 .banner-indicator{
     position: absolute;
